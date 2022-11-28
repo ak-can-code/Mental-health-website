@@ -1,0 +1,23 @@
+import streamlit as st
+
+st. set_page_config(page_title="Changing our views on Mental Illness")
+
+# - - - - HEADER Section - - - -
+st.title("Mental Illness")
+st.subheader("What is Mental Illness?")
+st.write("The National Institute of Mental Health defines mental illness as a mental, behavioral, or emotional disorder. Mental illnesses can vary in impact. Impairment because of the illness can range from no impairment, mild, moderate, and severe impairment. When a person has severe impairment they are described as having serious mental illness.")
+with st.countainer():
+    st.write("- - -")
+    left column, right-column = st.colums(2)
+    with left_column:
+        st.subheader("The Stigma Around Mental Health")
+        st.write("##")
+        st.write(
+            """
+asdadadsad
+
+"""
+)
+st.subheader("")
+st.write("")
+
