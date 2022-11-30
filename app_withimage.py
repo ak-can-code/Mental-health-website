@@ -1,7 +1,8 @@
 import streamlit as st
 import textwrap
 import requests
-from streamlit_lottie import st_lottie
+import st_lottie
+#from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Changing our views on Mental Illness", layout="wide")
 def load_lottieurl(url):
@@ -30,7 +31,7 @@ with st.container():
         st.write("Stigma regarding mental health is when society views a person in a negative way because of their mental illness. Mental health stigma comes from harmful stereotypes that originated with early beliefs about mental illness. Pressures of mental health stigma can come from anyone; family, friends, coworkers, and society. In a survey done by the HealthAffairs a majority of people in the U.S believe in supporting those with mental illness so they can recover but almost half said they wouldn’t welcome a mental health facility into their neighborhood and 2⁄3 of the respondents said there was still a lot of stigma attached to mental illness.  In data found by the SAMHSA in 2020, 21% of all U.S. adults had any mental illness. Of that 21%, 42.2% adults received mental health services in the past year. Additionaly, the suicide rate increased 25% over the past 20 years for the most part because of not enough access to mental health care, and poor financing of mental health care yet societal and cultural stigma around mental illness has been mostly unchanged (American Psychiatric Association).  The main reason people don’t seek help from professionals is fear of being labeled “crazy” or “psycho”. These characterizations are not truthful, cause pain, and prevent people from getting the help they need. ")
         st.subheader ("How to overcome mental health stigma")
         st.write ("The reason stigma exists is because of misinformation, lack of understanding, and fear .  To overcome mental health stigma as a society we have to increase education about mental illness and support those who are experiencing stigma. Please remember people with mental illnesses are not defined by their illness, rather it is a part of them and they are much more than just their illness. Don’t be a part of the problem, try to solve it.")
-        with right_column:
-            st_lottie(lottie_coding, height=300,key= "coding")
+        #with right_column:
+            #st_lottie(lottie_coding, height=300,key= "coding")
         
 
