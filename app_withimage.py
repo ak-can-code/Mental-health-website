@@ -1,7 +1,7 @@
 import streamlit as st
 import textwrap
 import requests
-import st_lottie
+#import st_lottie
 #from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Changing our views on Mental Illness", layout="wide")
